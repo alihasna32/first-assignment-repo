@@ -69,3 +69,265 @@ header nav{
     cursor: pointer;
 }
 
+/* action */
+
+.action{
+    display: flex;
+    gap: 905px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(216, 205, 205);  
+    padding: 40px; 
+}
+
+main .action{
+    align-items: center;
+    margin: 116px;
+    margin: 100px 396px 100px 396px; 
+}
+
+.action-title{
+    color: #252432;
+    font-size: 42px;
+    font-family: raleway;
+}
+
+.action-subtitle{
+    color: #25243280;
+    font-size: 24px;
+
+}
+
+.action-button{
+    font-family: raleway;
+    background-color: #4E47FF;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 10px;
+    height: 50px;
+    width: 190px;
+    margin-top: 10px;
+    border: none;
+}
+
+.action-button:hover{
+    background-color: rgb(255, 255, 0);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.action-img img {
+  border-radius: 48px;
+}
+
+/* main */
+
+.main{
+    background-color: #4d47ff1a  ;
+    border: 1px solid white;
+    border-radius: 24px;
+
+    margin: 116px 400px 37px 400px;
+}
+
+.main-title{
+    font-size:38px ;
+    font-family: raleway;
+    text-align: center;
+}
+
+.main-ratting {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: inter;
+}
+
+.main-ratting .main--title{
+    font-size: 80px;
+    color:#4E47FF ;
+    margin:135px 142px 50px 142px;
+}
+
+.main--p{
+    color: #00000050;
+    font-family: inter;
+}
+
+/* card */
+.card-title{
+    margin: 137px 151px 50px 151px;
+    font-size: 42px;
+    font-family: raleway;
+    text-align: center;
+}
+
+.card-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px ;
+}
+
+
+.card-star{
+    display: flex;
+}
+.card-image{
+    display: flex;
+}
+
+.card {
+  background-color: rgba(32, 29, 212, 0.295); 
+  padding: 24px 24px;
+  border-radius: 14px;
+  width: 512px;
+  height: 183px;
+  border: 2px solid rgb(184, 170, 146);
+  margin-bottom: 137px;
+}
+
+.card-image img{
+    border-radius: 50%;
+} 
+
+.card-image p{
+    margin: 0px 0px 7px 5px;
+}
+
+.card-image p .card-img-date{
+    color: #777777;
+}
+
+
+/* Another section */
+.another-section{
+    border: 2px solid rgb(204, 198, 198);
+    text-align: center;
+    margin: 0px 396px 92px 396px;
+}
+
+.another-section .as-title{
+    font-size: 50px;
+    font-family: raleway;
+    text-align: center;
+    margin:71px 312px 20px 312px ;
+}
+
+.another-section .as-p{
+    color: #00000056;
+    text-align: center;
+}
+
+.another-section .as-button{
+    font-family: raleway;
+    background-color: #4E47FF;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 10px;
+    height: 50px;
+    width: 190px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    
+}
+
+.another-section .as-button:hover{
+    background-color: rgb(255, 255, 0);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.another-section .as-button{
+    text-align: center;
+    
+}
+
+.another-section img{
+    margin: 20px 150px 71px 150px ;
+    border-radius: 48px;
+    width: 840px;
+    height: 341px;
+}
+
+/* log in part */
+.login-part{
+    display: flex; 
+    background-color: #ffffff;
+}
+
+.first-colume .colume-title{
+    font-size: 97px;
+    margin: 100px 150px;
+    font-family: raleway;
+}
+
+.first-colume{
+    padding: 130px 190px;
+    margin: 30px 80px;
+}
+
+.login-part input[type="text"]{
+    height: 64ox;
+    border: 2px solid #4E47FF;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px 40px;
+    margin-top: 2px ;
+}
+
+.message{
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 2px solid #4E47FF;
+}
+
+.get-in-touch{
+      font-family: raleway;
+    background-color: #4E47FF;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 10px;
+    height: 50px;
+    width: 190px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.get-in-touch:hover{
+    background-color: rgb(255, 255, 0);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* footer */
+footer {
+    background-color: rgba(218, 220, 250, 0.61);
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(187, 181, 181);
+}
+
+.footer-title{
+    color: #4E47FF;
+    font-family: raleway;
+    font-size: 100px;
+}
+
+.footer-p{
+    color: #8884b6;
+}
+
+.footer-design .footer-list li{
+     display: flex;
+     text-decoration: none;
+     text-align: center;
+     justify-content: center;
+
+}
