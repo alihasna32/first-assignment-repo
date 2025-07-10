@@ -1,13 +1,24 @@
+
+/* header nav */
+ header{
+    background-image:url('Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: none;
+    height: 50vh;
+}  
+
 header nav{
     display: flex;
     justify-content: space-around; 
-    margin: 50px;
+    margin: 0px;
     gap: 909px;    
 }
 
 .header-logo{
     color: #4E47FF ;
     font-size: 34px;
+    font-family: sans-serif;
 }
 
 .header-button{
@@ -19,9 +30,39 @@ header nav{
     height: 48px;
     width: 140px;
     margin-top: 30px;
+    border: none;
 }
 
 .header-button:hover{
+    background-color: rgb(255, 255, 0);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* header banner */
+.banner{
+    text-align: center;
+}
+
+.banner-title{
+    font-size: 65px;
+    font-family: Raleway;
+}
+
+.banner-button{
+    background-color: #4E47FF;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    border: none;
+}
+
+.banner-button:hover{
     background-color: rgb(255, 255, 0);
     color: black;
     border-radius: 10px;
