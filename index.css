@@ -6,6 +6,7 @@
     background-size: cover;
     margin: none;
     height: 50vh;
+    border: 2px solid rgba(48, 48, 204, 0.39);
 }  
 
 header nav{
@@ -79,6 +80,7 @@ header nav{
     padding: 40px; 
     max-width: 1140px;
     margin: 116px auto;
+    box-shadow: 0 8px 10px #4d47ff91;
 }
 
 
@@ -200,6 +202,12 @@ header nav{
   height: 183px;
   border: 2px solid rgb(184, 170, 146);
   margin-bottom: 137px;
+}
+
+.card:hover{
+background-color: rgba(4, 0, 255, 0.623);
+cursor: pointer;
+color: aliceblue;
 }
 
 .card-image img{
